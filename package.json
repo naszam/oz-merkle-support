@@ -1,0 +1,28 @@
+{
+  "name": "oz-merkle-support",
+  "version": "1.0.0",
+  "description": "MyContract.sol to show issue with MerkleProof.sol",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "ethereumjs-util": "^7.0.1",
+    "ganache-cli": "^6.9.1",
+    "truffle": "^5.1.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naszam/oz-merkle-support.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naszam/oz-merkle-support/issues"
+  },
+  "homepage": "https://github.com/naszam/oz-merkle-support#readme"
+}
