@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git+https://github.com/naszam/oz-merkle-support.git"
   },
-  "author": "",
+  "author": "Nazzareno Massari",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/naszam/oz-merkle-support/issues"
