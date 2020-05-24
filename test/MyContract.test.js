@@ -1,5 +1,7 @@
+const { keccakFromString, bufferToHex } = require('ethereumjs-util');
+const {ethers} = require('ethers')
 let catchRevert = require("./exceptionsHelpers.js").catchRevert
-const MerkleTree = require('./merkleTree.js').MerkleTree
+const { MerkleTree } = require('./merkleTree.js')
 var MyContract= artifacts.require('./MyContract')
 
 contract('MyContract', function(accounts) {
@@ -30,7 +32,6 @@ contract('MyContract', function(accounts) {
         const result = await instance.claim(proof, root, {from:redeemer})
         assert.isTrue(result, "MerkleProof not working")
       })
-
-    }) 
+    })
   })
 })

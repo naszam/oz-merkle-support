@@ -19,4 +19,3 @@ contract MyContract {
     return true;
   }
 }
-

@@ -8,8 +8,10 @@
   },
   "dependencies": {
     "ethereumjs-util": "^7.0.1",
+    "ethers": "^4.0.47",
     "ganache-cli": "^6.9.1",
-    "truffle": "^5.1.26"
+    "truffle": "^5.1.26",
+    "web3-utils": "^1.2.8"
   },
   "devDependencies": {},
   "scripts": {
