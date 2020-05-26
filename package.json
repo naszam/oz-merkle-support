@@ -9,9 +9,11 @@
   "dependencies": {
     "ethereumjs-util": "^7.0.1",
     "ganache-cli": "^6.9.1",
-    "truffle": "^5.1.26"
+    "truffle": "^5.1.27"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "minimist": "^1.2.5"
+  },
   "scripts": {
     "test": "mocha"
   },
