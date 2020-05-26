@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-// based upon https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/test/helpers/merkleTree.js
+// based upon https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v3.0.1/test/helpers/merkleTree.js
 
 
 let catchRevert = require("./exceptionsHelpers.js").catchRevert
