@@ -1,5 +1,5 @@
 # oz-merkle-support
->MyContract.sol to show issue with MerkleProof.sol
+>MyContract.sol to show issue with MerkleProof.sol see [Topic](https://forum.openzeppelin.com/t/merkleproof-sol-claim-error-vm-exception-while-processing-transaction/2918/4)
 
 Project Setup
 ============
