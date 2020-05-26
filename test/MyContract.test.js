@@ -1,5 +1,7 @@
-const { keccakFromString, bufferToHex } = require('ethereumjs-util');
-const {ethers} = require('ethers')
+// SPDX-License-Identifier: MIT
+// based upon https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/test/helpers/merkleTree.js
+
+
 let catchRevert = require("./exceptionsHelpers.js").catchRevert
 const { MerkleTree } = require('./merkleTree.js')
 var MyContract= artifacts.require('./MyContract')
