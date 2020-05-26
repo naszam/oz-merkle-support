@@ -29,8 +29,7 @@ contract('MyContract', function(accounts) {
     describe("claim()", async () => {
 
       it("check redeemer account via MerkleProof verify()", async () => {
-        const leaf = bufferToHex(keccakFromString(redeemer))
-	      console.log(leaf)
+        const leaf = keccakFromString(redeemer)
         const result = await instance.claim(proof, root, leaf, {from:redeemer})
         assert.isTrue(result, "MerkleProof not working")
       })
