@@ -1,5 +1,9 @@
 # oz-merkle-support
->MyContract.sol to show issue with MerkleProof.sol [Visit Topic](https://forum.openzeppelin.com/t/merkleproof-sol-claim-error-vm-exception-while-processing-transaction/2918/4)
+>MyContract.sol to show issue with keccakFromString() in merkleTree.js 
+
+See [issue #254](https://github.com/ethereumjs/ethereumjs-util/issues/254)  
+
+[Visit Topic on OpenZeppelin Forum](https://forum.openzeppelin.com/t/merkleproof-sol-claim-error-vm-exception-while-processing-transaction/2918/4)
 
 Project Setup
 ============
