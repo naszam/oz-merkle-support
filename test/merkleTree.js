@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT
+// based on https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/test/helpers/merkleTree.js
+
 const { keccak256, keccakFromString, bufferToHex, toBuffer } = require('ethereumjs-util');
 
 class MerkleTree {
