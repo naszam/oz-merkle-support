@@ -13,7 +13,7 @@
     "truffle": "^5.1.27"
   },
   "devDependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.6"
   },
   "scripts": {
     "test": "mocha"
